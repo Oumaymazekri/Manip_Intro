@@ -1,0 +1,6 @@
+services:
+  cv:
+    build: .
+    ports:
+      - "8005:80"
+    container_name: cv_container
